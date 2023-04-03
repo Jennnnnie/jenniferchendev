@@ -1,0 +1,25 @@
+.jcdev_brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.jcdev_brand div {
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.jcdev_brand-linkedin {
+  width: 80px;
+  border-radius: 20px;
+}
+
+.jcdev_brand-github {
+  width: 125px;
+}
