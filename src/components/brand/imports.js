@@ -1,5 +1,5 @@
 import headshot from "../../assets/headshot.JPG";
-import github from "../../assets/github.png";
+import github from "../../assets/github.jpg";
 import linkedin from "../../assets/linkedin.png";
 import imgCoding from "../../assets/woman-coding.jpg";
 

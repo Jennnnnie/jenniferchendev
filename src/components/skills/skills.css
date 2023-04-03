@@ -1,0 +1,47 @@
+.jcdev_skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.jcdev_skills p {
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+
+.jcdev_skills div {
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.jcdev_skills-html {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.jcdev_skills-css {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.jcdev_skills-javascript {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.jcdev_skills-react {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.jcdev_skills-vscode {
+  width: 60px;
+  border-radius: 10px;
+}
