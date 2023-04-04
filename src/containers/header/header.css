@@ -1,5 +1,6 @@
 .jcdev_header {
   display: flex;
+  background: #111111;
 }
 
 .jcdev_header-content {

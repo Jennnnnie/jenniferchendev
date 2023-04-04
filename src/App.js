@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import { Brand, Navbar, Project } from "./components";
-import { About, Footer, Header, Projects, Contact } from "./containers";
+import { About, Header, Projects, Contact } from "./containers";
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
         <About />
         <Projects />
         <Contact />
-        <Footer />
       </div>
     </>
   );

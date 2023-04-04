@@ -1,0 +1,7 @@
+.jcdev_projects {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--color-text);
+  font-family: var(--font-family);
+  padding: 30px;
+}
