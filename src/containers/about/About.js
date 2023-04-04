@@ -5,7 +5,7 @@ import "./about.css";
 const About = () => {
   return (
     <>
-      <div className="jcdev_about section">
+      <div className="jcdev_about section" id="about">
         <div className="jcdev_about-container">
           <div className="jcdev_about-image">
             <img src={imgCoding} alt="woman-coding" />
@@ -15,12 +15,12 @@ const About = () => {
             <h3>A passionate Front-end Developer based in New Jersey, USA</h3>
             <p>
               As a Junior Front-end Developer, I am fluent in HTML, CSS,
-              Javascript, and React. I work great <br /> in a team collaborative
+              Javascript, and React. I work great in a team collaborative
               environment as well as working independently. I use VSCode as my
-              main <br /> coding program and can build and maintain responsive
-              websites with smooth user experience. <br /> I am continuously
-              learning new programming languages and hope to build more awesome
-              projects <br /> in my near future!
+              main coding program and can build and maintain responsive websites
+              with smooth user experience. I am continuously learning new
+              programming languages and hope to build more awesome projects in
+              my near future!
             </p>
           </div>
         </div>

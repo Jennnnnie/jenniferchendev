@@ -1,6 +1,4 @@
 .jcdev_about {
-  display: flex;
-  flex-direction: row;
   background: #000814;
   padding: 50px;
 }
@@ -17,6 +15,11 @@
   overflow-clip-margin: content-box;
   overflow: clip;
   border-radius: 10px;
+}
+
+.jcdev_about-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .jcdev_about-content {
@@ -38,14 +41,14 @@
 }
 
 .jcdev_about-content h3 {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 30px;
   font-weight: normal;
   margin: 10px;
 }
 
 .jcdev_about-content p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 30px;
   margin: 10px;
 }

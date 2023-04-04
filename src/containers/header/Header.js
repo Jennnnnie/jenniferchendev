@@ -7,7 +7,7 @@ import { Skills } from "../../components";
 const Header = () => {
   return (
     <>
-      <div className="jcdev_header section">
+      <div className="jcdev_header section" id="home">
         <div className="jcdev_header-content">
           <h1 className="gradient-text">Front-End Developer 💻</h1>
           <p>
