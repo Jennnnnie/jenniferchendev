@@ -50,3 +50,30 @@
   width: 48px;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .jcdev_skills div {
+    margin: 16px;
+    padding: 10px;
+  }
+
+  .jcdev_skills-html {
+    margin-right: -40px;
+  }
+
+  .jcdev_skills-css {
+    margin-left: -40px;
+  }
+
+  .jcdev_skills-javascript {
+    margin-left: -100px;
+  }
+
+  .jcdev_skills-react {
+    margin-left: -160px;
+  }
+
+  .jcdev_skills-nodejs {
+    margin-right: -100px;
+  }
+}

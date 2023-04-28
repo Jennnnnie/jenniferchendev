@@ -52,3 +52,25 @@
   line-height: 30px;
   margin: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .jcdev_about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jcdev_about-content {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .jcdev_about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jcdev_about-content {
+    margin-top: 40px;
+  }
+}
