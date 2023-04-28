@@ -1,5 +1,5 @@
 import React from "react";
-import { Html, Css, Javascript, ReactJS, VSCode } from "./imports";
+import { Html, Css, Javascript, ReactJS, VSCode, NodeJS } from "./imports";
 import "./skills.css";
 
 const Skills = () => {
@@ -22,6 +22,9 @@ const Skills = () => {
         </div>
         <div>
           <img src={ReactJS} alt="ReactJS" className="jcdev_skills-react" />
+        </div>
+        <div>
+          <img src={NodeJS} alt="VSCode" className="jcdev_skills-nodejs" />
         </div>
         <div>
           <img src={VSCode} alt="VSCode" className="jcdev_skills-vscode" />
