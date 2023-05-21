@@ -1,55 +1,41 @@
 .jcdev_header {
   display: flex;
-  background: #111111;
 }
 
 .jcdev_header-content {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: 0 auto;
-  margin-left: 30px;
+  margin: 5rem;
+  width: 540px;
+  height: 306px;
 }
 
 .jcdev_header-content h1 {
   font-family: var(--font-family);
-  font-weight: 800;
-  font-size: 62px;
+  font-size: 40px;
   line-height: 72px;
   letter-spacing: 1px;
-  margin: 80px;
+  margin: 2rem;
 }
 
 .jcdev_header-content p {
-  color: var(--color-text);
+  color: var(--color-gray);
   font-family: var(--font-family);
   font-size: 20px;
   line-height: 27px;
-  margin: -50px 0 0 80px;
+  margin: 2rem;
 }
 
 .jcdev_header-image {
-  flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10rem;
+  margin-left: 10%;
 }
 
 .jcdev_header-image img {
   width: 450px;
-  margin: 30px;
-  margin-top: 130px;
-  border: 3px solid white;
-  border-radius: 50%;
   -webkit-animation: morph 3s ease-in-out infinite;
   animation: morph 8s ease-in-out infinite;
   position: relative;
   transition: all 1s ease-in-out;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 @keyframes morph {
   0% {
@@ -61,6 +47,23 @@
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
+}
+
+.jcdev_header-button {
+  width: 228px;
+  height: 56px;
+  margin: 2rem;
+  border: none;
+  border-radius: 30px;
+  background: var(--color-salmon);
+  color: var(--color-white);
+  font-family: var(--font-family);
+  letter-spacing: 2px;
+}
+
+.jcdev_header-button:hover {
+  cursor: pointer;
+  background-color: var(--color-orange);
 }
 
 @media screen and (max-width: 1060px) {

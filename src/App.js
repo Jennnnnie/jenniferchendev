@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 
-import { Brand, Navbar, Project } from "./components";
-import { About, Header, Projects, Contact } from "./containers";
+import { Navbar, Skills } from "./components";
+import { Header, Projects, Contact } from "./containers";
 
 function App() {
   return (
@@ -10,11 +9,11 @@ function App() {
       <div className="App">
         <div className="gradient-bg">
           <Navbar />
+          <Skills />
           <Header />
+          <Projects />
+          <Contact />
         </div>
-        <About />
-        <Projects />
-        <Contact />
       </div>
     </>
   );

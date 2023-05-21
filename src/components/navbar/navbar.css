@@ -5,38 +5,41 @@
   padding: 32px 96px;
 }
 
-.jcdev_navbar-links {
-  flex: 1;
+.jcdev_navbar-links-container {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  cursor: pointer;
+  margin: 1rem;
+  font-family: var(--font-family);
+  width: 100%;
 }
 
-.jcdev_navbar-links_logo {
-  flex: 1;
+.jcdev_navbar-links {
   display: flex;
-  justify-content: flex-start;
-  color: var(--color-text);
+  justify-content: flex-end;
+  gap: 50px;
+  width: 100%;
+}
+
+.jcdev_navbar-links a:hover {
+  background: var(--color-black);
+  color: var(--color-light-cream);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.jcdev_navbar-logo h1 {
+  color: var(--color-black);
   font-family: var(--font-family);
   font-size: 30px;
   margin: 20px;
 }
 
-.jcdev_navbar-links_container {
-  display: flex;
-  flex-direction: row;
-}
-
 .jcdev_navbar-links_container p,
 .jcdev_navbar-menu_container {
-  color: var(--color-text);
+  color: var(--color-black);
   font-family: var(--font-family);
-  font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  margin: 0 16px;
-  cursor: pointer;
 }
 
 .jcdev_navbar-menu {

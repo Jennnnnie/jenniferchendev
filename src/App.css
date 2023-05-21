@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap");
+
+:root {
+  --font-family: "Plus Jakarta Sans", sans-serif;
+  --color-purple: #755cde;
+  --color-orange: #f6a560;
+  --color-pink: #f39e9e;
+  --color-turqoise: #61c4b7;
+  --color-maroon: #552049;
+  --color-salmon: #eb7565;
+  --color-black: #030303;
+  --color-gray: #7a746e;
+  --color-white: #fff7f0;
+  --color-light-cream: #f2f2f2;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,7 +22,7 @@
 }
 
 body {
-  background: black;
+  background: #fff7f0;
 }
 
 a {
@@ -15,7 +31,7 @@ a {
 }
 
 .gradient-text {
-  background: linear-gradient(to bottom right, #95d5b2, #c8b6ff, #fae588);
+  background: linear-gradient(to bottom right, #61c4b7, #755cde, #f39e9e);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
