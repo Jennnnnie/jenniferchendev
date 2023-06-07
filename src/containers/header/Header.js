@@ -18,7 +18,7 @@ const Header = () => {
             learning new programming languages and hope to build more awesome
             projects in my near future!
           </p>
-          <button className="jcdev_header-button">Contact me!</button>
+          <button className="jcdev_header-button">Contact me</button>
         </div>
       </div>
     </>
