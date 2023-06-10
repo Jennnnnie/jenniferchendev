@@ -24,11 +24,15 @@
 }
 
 .jcdev_skills-grid-container {
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  /* display: grid;
   grid-template-columns: 300px 150px 150px 350px;
   grid-template-rows: 200px 50px 50px;
   grid-gap: 16px;
-  padding-block: 5rem;
+  padding-block: 5rem; */
   font-family: var(--font-family);
   color: var(--color-white);
 }
@@ -44,10 +48,19 @@
 }
 
 .jcdev_skills-vscode {
-  grid-row: 1 / 4;
+  /* grid-row: 1 / 4; */
+
   border-radius: 8px;
   background: var(--color-purple);
-  padding: 20px;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 354px;
+  height: 364px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
 }
 
 .jcdev_skills-vscode h1 {
@@ -62,14 +75,22 @@
 }
 
 .jcdev_skills-html {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
   border-radius: 8px;
   background: var(--color-orange);
+  padding-top: 24px;
+  padding-bottom: 50px;
+  width: 162px;
+  height: 184px;
+  padding-right: 60px;
 }
 
 .html-icon {
-  position: relative;
-  left: 0.5rem;
-  top: 4rem;
+  /* position: relative; */
+  /* left: 0.5rem;
+  top: 4rem; */
   width: 40px;
 }
 
@@ -135,4 +156,82 @@
 .jcdev_skills-nodejs h1 {
   top: 60%;
   left: 1rem;
+}
+.middle-container {
+  margin-top: 80px;
+  margin-bottom: 136px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.vscode {
+  width: 354px;
+  height: 364px;
+  object-fit: contain;
+  margin-bottom: 0px;
+}
+.html {
+  width: 164px;
+  height: 182px;
+  object-fit: contain;
+  margin-right: 24px;
+}
+.css {
+  width: 164px;
+  height: 182px;
+  object-fit: contain;
+}
+.reactjs {
+  width: 354px;
+  height: 158px;
+  object-fit: contain;
+  margin-top: 24px;
+}
+.javascript {
+  width: 354px;
+  height: 182px;
+  object-fit: contain;
+}
+.nodejs {
+  margin-top: 24px;
+  width: 354px;
+  height: 158px;
+  object-fit: contain;
+}
+.smallCards {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.responsiveCol {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (max-width: 400px) {
+  .middle-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+  .vscode {
+    margin-bottom: 24px;
+  }
+  .illustrations {
+    margin-bottom: 24px;
+  }
+  .smallCards {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .jcdev_skills-intro {
+    margin-top: 45px;
+  }
+  .jcdev_skills-intro p {
+    padding: 20px;
+  }
 }

@@ -46,25 +46,36 @@
   margin-left: 16px;
   display: none;
   position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .jcdev_navbar-menu_container {
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  flex-direction: column;
-  text-align: end;
-  padding: 32px;
+  flex-direction: column; */
+  /* text-align: end; */
+  padding: 10px;
   position: absolute;
   top: 40px;
   right: 0;
+  left: 0px;
   margin-top: 16px;
   min-width: 210px;
   border-radius: 5px;
 }
 
+/* .mobileMenu{
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 550px;
+} */
+
 @media screen and (max-width: 1050px) {
-  .jcdev_navbar-links_container {
+  .jcdev_navbar-links-container {
     display: none;
   }
 

@@ -4,19 +4,22 @@ import { Navbar, Skills } from "./components";
 import { Header, Projects, Contact } from "./containers";
 
 function App() {
-  return (
-    <>
-      <div className="App">
-        <div className="gradient-bg">
-          <Navbar />
-          <Skills />
-          <Header />
-          <Projects />
-          <Contact />
-        </div>
-      </div>
-    </>
-  );
+	return (
+		<>
+			<div className="App">
+				<div className="gradient-bg">
+					<Navbar />
+					<Skills />
+					<Header />
+					<Projects />
+					<Contact />
+				</div>
+			</div>
+			<br />
+			<br />
+			<br />
+		</>
+	);
 }
 
 export default App;

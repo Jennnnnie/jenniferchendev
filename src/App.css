@@ -29,7 +29,23 @@ a {
   color: unset;
   text-decoration: none;
 }
-
+.centerMe{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.rowing{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.colCenteral{
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
 /* .gradient-text {
   background: linear-gradient(to bottom right, #61c4b7, #755cde, #f39e9e);
   background-clip: text;

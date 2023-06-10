@@ -56,3 +56,67 @@
 .jcdev_project-arrows img:hover {
   cursor: pointer;
 }
+
+.project-styling{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 540px;
+  max-height: 360px;
+}
+.leftBtn{
+  height: 64px;
+  width: 64px;
+  text-align: center;
+  background-color: #030303;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.rightBtn{
+  height: 64px;
+  width: 64px;
+  text-align: center;
+  background-color: #755CDE;
+  border-radius: 50%;margin-right: 16px;
+  cursor: pointer;
+}
+.alignCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexRow{
+  flex-direction: row;
+}
+.btnsDiv{
+  margin-bottom: 88px;
+  margin-top: 56px;
+}
+.colCenterAlign{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.myWorkHeading{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: #030303;
+margin-top: 92px;
+margin-bottom: 56px;
+
+}
+@media screen and (max-width: 490px) {
+  .myWorkHeading{
+    margin-top: 150px;
+  }
+  .project-styling{
+    width: 270px;
+    height: 180px;
+  }
+}
