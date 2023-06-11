@@ -165,3 +165,26 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 489px) {
+  .jcdev_header-image {
+    margin-top: -15rem;
+    margin-left: -3rem;
+  }
+
+  .jcdev_header-content {
+    margin-top: -5rem;
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .jcdev_header-image {
+    margin-left: -5rem;
+  }
+
+  .jcdev_header-content {
+    margin-top: -5rem;
+    margin-left: 1rem;
+  }
+}

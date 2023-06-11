@@ -115,3 +115,9 @@
     padding-right: 24px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .footer-container {
+    margin-top: 1rem;
+  }
+}

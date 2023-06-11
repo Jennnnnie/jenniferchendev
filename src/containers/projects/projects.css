@@ -108,11 +108,34 @@
 }
 
 @media screen and (max-width: 490px) {
-  .myWorkHeading {
-    margin-top: 150px;
-  }
   .project-styling {
     width: 270px;
     height: 180px;
+  }
+
+  .myWorkHeading {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .colCenterAlign {
+    margin-top: -5rem;
+  }
+
+  .flexRow {
+    margin-top: 20rem;
+  }
+
+  .myWork-info {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .myWork-info button {
+    margin: 1rem;
+    margin-top: 2rem;
+    padding: 5px;
   }
 }
