@@ -1,8 +1,7 @@
-.jcdev_projects {
+/* .jcdev_projects {
   display: flex;
   color: var(--color-black);
   font-family: var(--font-family);
-  padding: 50px;
 }
 
 .jcdev_project-title h1 {
@@ -55,67 +54,79 @@
 
 .jcdev_project-arrows img:hover {
   cursor: pointer;
-}
+} */
 
-.project-styling{
+.project-styling {
   width: 100%;
   height: 100%;
   object-fit: contain;
   max-width: 540px;
   max-height: 360px;
 }
-.leftBtn{
+
+.leftBtn {
   height: 64px;
   width: 64px;
   text-align: center;
   background-color: #030303;
   border-radius: 50%;
   cursor: pointer;
-
 }
-.rightBtn{
+
+.rightBtn {
   height: 64px;
   width: 64px;
   text-align: center;
-  background-color: #755CDE;
-  border-radius: 50%;margin-right: 16px;
+  background-color: #030303;
+  border-radius: 50%;
+  margin-right: 16px;
   cursor: pointer;
 }
-.alignCenter{
+
+.rightBtn:hover,
+.leftBtn:hover {
+  background-color: #755cde;
+}
+
+.alignCenter {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.flexRow{
+
+.flexRow {
   flex-direction: row;
 }
-.btnsDiv{
+
+.btnsDiv {
   margin-bottom: 88px;
   margin-top: 56px;
 }
-.colCenterAlign{
-  
+
+.colCenterAlign {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  margin-top: 10rem;
 }
-.myWorkHeading{
-  font-family: 'Plus Jakarta Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 40px;
-color: #030303;
-margin-top: 92px;
-margin-bottom: 56px;
 
+.myWorkHeading {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #030303;
+  margin-top: 92px;
+  margin-bottom: 56px;
 }
+
 @media screen and (max-width: 490px) {
-  .myWorkHeading{
+  .myWorkHeading {
     margin-top: 150px;
   }
-  .project-styling{
+  .project-styling {
     width: 270px;
     height: 180px;
   }

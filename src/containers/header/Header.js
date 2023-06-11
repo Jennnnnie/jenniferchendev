@@ -1,6 +1,6 @@
-import React from "react";
-import "./header.css";
+import React, { useState } from "react";
 import headshot from "../../assets/headshot.png";
+import "./header.css";
 
 const Header = () => {
   return (

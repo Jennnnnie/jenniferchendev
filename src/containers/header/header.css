@@ -78,6 +78,10 @@
 }
 
 @media screen and (max-width: 650px) {
+  .jcdev_header {
+    margin-top: 10rem;
+  }
+
   .jcdev_header h1 {
     font-size: 48px;
     line-height: 60px;
@@ -99,25 +103,24 @@
     font-size: 14px;
     line-height: 24px;
   }
-  .jcdev_header-image{
+  .jcdev_header-image {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .jcdev_header-content{
+  .jcdev_header-content {
     text-align: center;
   }
-  .jcdev_header-content{
+  .jcdev_header-content {
     width: 350px;
     height: 100%;
     margin: 0;
   }
-  .jcdev_header-image img{
+  .jcdev_header-image img {
     width: 300px;
-    
   }
-  .jcdev_header-image{
-    padding:0px;
+  .jcdev_header-image {
+    padding: 0px;
     margin: 0;
   }
 }

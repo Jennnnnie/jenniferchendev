@@ -211,6 +211,12 @@
   display: flex;
 }
 
+@media screen and (max-width: 1200px) {
+  .jcdev_skills-intro {
+    margin-top: 10rem;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .middle-container {
     flex-direction: column;

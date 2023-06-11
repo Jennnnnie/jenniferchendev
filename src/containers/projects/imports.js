@@ -3,12 +3,12 @@ import Coffeeroasters from "../../assets/coffeeroasters-thumbnail.jpg";
 import InteractiveCard from "../../assets/interactive-card-project.jpg";
 import LeftArrow from "../../assets/icon-arrow-left.svg";
 import RightArrow from "../../assets/icon-arrow-right.svg";
-import bitmap from "../../assets/Bitmap.png";
+import ComingSoon from "../../assets/comingsoon.png";
 export {
-	ArtGallery,
-	Coffeeroasters,
-	InteractiveCard,
-	LeftArrow,
-	RightArrow,
-	bitmap,
+  ArtGallery,
+  Coffeeroasters,
+  InteractiveCard,
+  LeftArrow,
+  RightArrow,
+  ComingSoon,
 };
