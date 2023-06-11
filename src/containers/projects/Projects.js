@@ -24,7 +24,11 @@ const Projects = () => {
     "https://github.com/Jennnnnie/interactive-card-project",
     ,
   ];
-  const netlifyLinks = ["#", "#", "#"];
+  const netlifyLinks = [
+    "https://artgallery-project.netlify.app",
+    "https://coffeeroasters-subscription-project.netlify.app/",
+    "https://interactivecards-project.netlify.app/",
+  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
