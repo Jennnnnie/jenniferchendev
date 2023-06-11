@@ -3,10 +3,14 @@ import { LinkedIn, Github } from "./imports";
 import "./contact.css";
 
 const Contact = () => {
-  const [showForm, setShowForm] = useState(false);
+  const [isOPen, setIsOpen] = useState(false);
 
-  const handleButtonClick = () => {
-    setShowForm(true);
+  const handleOpen = () => {
+    setIsOpen(true);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
   };
 
   return (
@@ -66,7 +70,20 @@ const Contact = () => {
             </div>
           </div>
           <div className="btn-container">
-            <button className="footer-btn">Contact me</button>
+            <button onClick={handleOpen} className="footer-btn">
+              Contact me
+            </button>
+            {isOPen && (
+              <div className="popup">
+                <div className="popup-content">
+                  <span onClick={handleClose} className="close-button">
+                    &times;
+                  </span>
+                  <p>Phone Number: 973-978-1796</p>
+                  <p>Email: jen.nie.333.chen@gmail.com</p>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </footer>

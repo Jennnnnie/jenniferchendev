@@ -73,6 +73,28 @@
   background-color: var(--color-orange);
 }
 
+.popup {
+  position: relative;
+  background-color: var(--color-salmon);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 22rem;
+  margin-top: 2rem;
+}
+
+.popup-content {
+  padding: 2rem;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 490px) {
   .footer-container {
     flex-direction: column;
