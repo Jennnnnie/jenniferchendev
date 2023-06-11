@@ -18,6 +18,13 @@ const Projects = () => {
     "Interactive Card Project",
     "Dnd PPG",
   ];
+  const githubLinks = [
+    "https://github.com/Jennnnnie/art-gallery-project",
+    "https://github.com/Jennnnnie/coffeeroasters-subscription-site",
+    "https://github.com/Jennnnnie/interactive-card-project",
+    ,
+  ];
+  const netlifyLinks = ["#", "#", "#"];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -39,27 +46,22 @@ const Projects = () => {
     <div className="colCenterAlign" id="projects">
       <span className="myWorkHeading">My Work</span>
       {/* Display the current picture */}
-      <img
-        src={pictures[currentIndex]}
-        alt="Current"
-        className="project-styling"
-      />
-      <div className="myWork-container">
-        <div className="myWork-info">
-          <h1>{titles[currentIndex]}</h1>
-          <button>
-            <a
-              href="https://github.com/Jennnnnie/art-gallery-project"
-              target="_noblank"
-            >
-              GitHub
-            </a>
-          </button>
-          <button>
-            <a href="#" target="_noblank">
-              Netlify
-            </a>
-          </button>
+      <div className="project-styling">
+        <img src={pictures[currentIndex]} alt="Current" />
+        <div className="myWork-container">
+          <div className="myWork-info">
+            <h1>{titles[currentIndex]}</h1>
+            <button>
+              <a href={githubLinks[currentIndex]} target="_noblank">
+                GitHub
+              </a>
+            </button>
+            <button>
+              <a href={netlifyLinks[currentIndex]} target="_noblank">
+                Netlify
+              </a>
+            </button>
+          </div>
         </div>
       </div>
       {/* Add left and right arrow buttons */}

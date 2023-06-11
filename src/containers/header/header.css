@@ -25,7 +25,6 @@
 }
 
 .jcdev_header-image {
-  display: flex;
   padding: 10rem;
   margin-left: 10%;
 }
@@ -67,13 +66,34 @@
   background-color: var(--color-orange);
 }
 
+@media screen and (max-width: 1500px) {
+  .jcdev_header-image {
+    width: 35em;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 1174px) {
+  .jcdev_header-image {
+    width: 35em;
+    margin-left: -5rem;
+  }
+}
+
 @media screen and (max-width: 1060px) {
   .jcdev_header {
     flex-direction: column;
   }
 
   .jcdev_header-content {
-    margin: 0 0 48px;
+    margin: 0;
+    margin-left: 20%;
+    margin-bottom: 20rem;
+  }
+
+  .jcdev_header-image {
+    margin-left: 5%;
+    height: 40rem;
   }
 }
 
@@ -89,7 +109,6 @@
 
   .jcdev_header p {
     font-size: 16px;
-    line-height: 60px;
   }
 }
 

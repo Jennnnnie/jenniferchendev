@@ -6,6 +6,7 @@
   --color-orange: #f6a560;
   --color-pink: #f39e9e;
   --color-turqoise: #61c4b7;
+  --color-dark-turqoise: #2b898e;
   --color-maroon: #552049;
   --color-salmon: #eb7565;
   --color-black: #030303;
@@ -29,18 +30,18 @@ a {
   color: unset;
   text-decoration: none;
 }
-.centerMe{
+.centerMe {
   align-items: center;
   justify-content: center;
   display: flex;
 }
-.rowing{
+.rowing {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   display: flex;
 }
-.colCenteral{
+.colCenteral {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
